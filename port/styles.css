@@ -1,23 +1,4 @@
-/*
-Theme Name: LaurenTsai
-Theme URL: 
-Author: TemplatesJungle
-Author URL: https://templatesjungle.com/
-Description: LaurenTsai is a Free Bootstrap Website Template for Portfolio Template by TemplatesJungle.
-Version: 1.0
-*/
 
-/*--------------------------------------------------------------
-This is main CSS file that contains custom style rules used in this template
---------------------------------------------------------------*/
-
-/*------------------------------------*\
-    Table of contents
-\*------------------------------------*/
-
-
-/** Base Styles
---------------------------------------------------------------*/
 :root {
   --primary-color: #66FD0F;
   --secondary-color: ;
@@ -38,15 +19,13 @@ This is main CSS file that contains custom style rules used in this template
   --bs-secondary-rgb: 249, 246, 243;
 }
 
-/* Fonts */
+
 :root {
   --heading-font: "Space Grotesk", serif;
   --body-font: "Space Grotesk", serif;
 }
 
 
-/*  General Styles
-      /*----------------------------------------------*/
 *,
 *::before,
 *::after {
@@ -59,8 +38,6 @@ html {
   box-sizing: border-box;
 }
 
-/** Typography
-  --------------------------------------------------------------*/
 
 body {
   font-family: var(--body-font);
@@ -139,9 +116,6 @@ a:hover {
   }
 }
 
-/* Section Margin
-    --------------------------------------------------------------*/
-
 .margin-small {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -157,9 +131,6 @@ a:hover {
   margin-bottom: 15rem;
 }
 
-
-/* svg override
-    --------------------------------------------------------------*/
 svg.social-icon {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -168,9 +139,6 @@ svg.social-icon:hover {
   color: rgba(255, 255, 255);
 }
 
-
-/* bootstrap button override
-    --------------------------------------------------------------*/
 .btn {
   --bs-btn-padding-x: 2rem;
   --bs-btn-padding-y: 1rem;
@@ -210,18 +178,12 @@ svg.social-icon:hover {
   color: var(--dark-color);
 }
 
-
-/* bootstrap Dropdown override
-    --------------------------------------------------------------*/
 .dropdown-item.active,
 .dropdown-item:active {
   --bs-dropdown-link-active-color: var(--white-color);
   --bs-dropdown-link-active-bg: var(--light-text-color);
 }
 
-
-/* bootstrap Pagination override
-    --------------------------------------------------------------*/
 .pagination {
   --bs-pagination-bg: transparent;
   --bs-pagination-border-color: rgba(255, 255, 255, 0.25);
@@ -236,9 +198,6 @@ svg.social-icon:hover {
   --bs-pagination-active-border-color: var(--primary-color);
 }
 
-
-/* bootstrap accordion override
-    --------------------------------------------------------------*/
 .accordion-button:not(.collapsed) {
   color: var(--body-text-color);
   background-color: transparent;
@@ -272,9 +231,6 @@ svg.social-icon:hover {
   box-shadow: none;
 }
 
-
-/* bootstrap form override
-    --------------------------------------------------------------*/
 input.form-control::placeholder {
   color: var(--white-color);
 }
@@ -282,10 +238,6 @@ input.form-control::placeholder {
 textarea.form-control::placeholder {
   color: var(--white-color);
 }
-
-
-/* swiper style override
-    --------------------------------------------------------------*/
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: var(--primary-color);
   opacity: 1;
@@ -297,9 +249,6 @@ textarea.form-control::placeholder {
   background: #4D434D;
   opacity: 1;
 }
-
-
-/* chocolat */
 .chocolat-wrapper {
   transition: opacity 0.4s ease, visibility 0s 0.4s ease;
   width: 100%;
@@ -312,9 +261,6 @@ textarea.form-control::placeholder {
   color: #fff;
   visibility: hidden;
 }
-
-
-/* preloader */
 .preloader {
   position: fixed;
   width: 100%;
@@ -334,13 +280,6 @@ textarea.form-control::placeholder {
 .preloader.loaded {
   transform: translateY(-100%);
 }
-
-
-/* Section Styles
-/*----------------------------------------------*/
-
-
-/*---- navigation section style start ----*/
 nav.navbar {
   text-transform: capitalize;
   font-size: 18px;
@@ -367,9 +306,6 @@ a.nav-link:hover {
     border-bottom: #2D2D2D;
   }
 }
-
-
-/*---- hero style start ----*/
 .animated-border {
   animation: rotate-border 90s linear infinite;
 }
@@ -383,9 +319,6 @@ a.nav-link:hover {
     transform: rotate(360deg);
   }
 }
-
-
-/*---- about style start ----*/
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   font-weight: 500;
@@ -399,11 +332,6 @@ a.nav-link:hover {
   color: var(--white-color);
   border: solid var(--primary-color) 1px;
 }
-
-
-/*---- portfolio style start ----*/
-
-/* Image zoom effect on hover */
 .image-zoom {
   overflow: hidden;
 }
@@ -415,8 +343,6 @@ a.nav-link:hover {
 .image-zoom:hover img {
   transform: scale(1.1);
 }
-
-/* scrollbar */
 #style-1::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 50px;
@@ -434,9 +360,6 @@ a.nav-link:hover {
   background-color: #2C1B2B;
   border: 2px solid rgba(245, 245, 245, 0.157);
 }
-
-
-/*---- portfolio-masonary page style start ----*/
 button.filter-button {
   border: 1px solid var(--primary-color);
   background-color: transparent;
